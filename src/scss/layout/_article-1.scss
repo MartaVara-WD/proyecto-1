@@ -1,0 +1,20 @@
+.red {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/cuadros.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+
+  & .title-red {
+    color: lavender;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+}
